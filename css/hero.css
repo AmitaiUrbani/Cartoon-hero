@@ -1,24 +1,26 @@
 body{
 	margin: 0;
-	font-family: 'Helvetica', 'Arial', sans-serif
+	font-family: 'Arial', 'Helvetica', sans-serif
+	font-size: 15px;
+	line-height: 30px;
 }
 header{
 	background-color: #a6ede8;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
-h1, h2, h3{
+h1, h2, p.subtext{
 	font-family: 'Kanit', sans-serif;
 }
-}
+
 header h1{
 	color:black;
-	font-size: 60px
+	font-size: 50px
 }
-header h3{
+header p{
 	font-size: 20px;
 }
 .row {
@@ -30,11 +32,35 @@ header h3{
   padding: 5px;
 }
 main{
+	background-color: #D3CABE;
 	max-width:800px;
-	margin: 0 auto;
-	padding: 0 20px;
+	margin: 10px auto;
+	padding:10px 20px;
 }
 main img{
-	max-width: 75%;
-
+	max-width: 100%;
+}
+h2{
+	font-size: 30px;
+	color: black
+	margin:40px 0 10px;
+}
+a{
+	color:black;
+}
+a:hover{
+	color: blue
+}
+footer{
+	background-color: #a6ede8;
+	text-align: center;
+	padding: 50px;
+}
+footer p{
+	margin: 0;
+}
+p.caption{
+	color: #999999;
+	font font-style: italic;
+	margin-top: 0;
 }
