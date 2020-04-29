@@ -15,7 +15,7 @@ header{
 h1, h2, p.subtext{
 	font-family: 'Kanit', sans-serif;
 }
-
+/*Header details*/
 header h1{
 	color:black;
 	font-size: 50px
@@ -51,6 +51,7 @@ a{
 a:hover{
 	color: blue
 }
+/*Footer details*/
 footer{
 	background-color: #a6ede8;
 	text-align: center;
